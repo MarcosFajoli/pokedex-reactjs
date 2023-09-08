@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TPokemonType } from "../../interface";
+import { TPokemonType } from "../../../interface";
 import { FlexBox } from "../Flexbox";
 
 interface TAtomPokemonType {
@@ -44,7 +44,7 @@ export const PokemonSprite = styled.img`
 `;
 
 export const PokemonPreviewSection = styled(FlexBox)`
-  height: 100px;
+  height: 70px;
 `;
 
 export const PokemonText = styled.span<TAtomPokemonType>`

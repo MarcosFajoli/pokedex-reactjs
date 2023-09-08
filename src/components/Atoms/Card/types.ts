@@ -1,4 +1,4 @@
-import { TPokemonType } from "../../interface";
+import { TPokemonType } from "../../../interface";
 
 export interface ICardProps {
   id: number;

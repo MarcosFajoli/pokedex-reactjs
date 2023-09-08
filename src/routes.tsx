@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './pages';
+import { Home, Error404 } from './pages';
 
 const AppRouter = () => (
     <Routes>
-        <Route path='*' element={<div> ERRO 404 </div>} />
+        <Route path="*" element={<Error404 />} />
         <Route path='/' element={<Home />} />
     </Routes>
 );

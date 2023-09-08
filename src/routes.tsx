@@ -3,8 +3,8 @@ import { Home, Error404 } from './pages';
 
 const AppRouter = () => (
     <Routes>
-        <Route path="*" element={<Error404 />} />
-        <Route path='/' element={<Home />} />
+        <Route path="/pokedex-reactjs/*" element={<Error404 />} />
+        <Route path='/pokedex-reactjs' element={<Home />} />
     </Routes>
 );
 

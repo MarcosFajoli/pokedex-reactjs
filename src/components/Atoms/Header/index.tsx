@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <Container>
       <Atom.HeaderContainer
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/pokedex-reactjs")}
         align="center"
         justify="space-between"
         direction="row"
